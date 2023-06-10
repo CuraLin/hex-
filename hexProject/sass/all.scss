@@ -1,0 +1,119 @@
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+body{
+    font-family: “Noto Sans TC”, sans-serif;
+}
+
+
+
+
+
+
+.container {
+    background: #00f5a8;
+    width: 750px;
+    display: flex;
+    padding: 130px 40px;
+
+
+}
+
+
+.container {
+
+    .header {
+        writing-mode: vertical-lr;
+        color: #004e40;
+
+
+
+        h1 {
+            font-size: 40px;
+            line-height: 0.8;
+        }
+
+        .h1Name {
+            font-size: 18px;
+            letter-spacing: 5px;
+            margin-top: 5px;
+        }
+    }
+
+    .card {
+        width: 400px;
+        height: 250px;
+        background: #FFF;
+        border-radius: 10px;
+        margin-left: 15px;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        position: relative;
+        overflow: hidden;
+.logo{
+    
+    margin-top: 10px;
+        margin-bottom: 10px;
+}
+        .hex1 {
+            position: absolute;
+            right: -105px;
+            top: -40px;
+            width: 200px;
+            height: 175px;
+            background: #00c178;
+            -webkit-clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+
+        }
+
+        .hex2 {
+            position: absolute;
+            right: 48px;
+            top: 107px;
+            width: 80px;
+            height: 70px;
+            background: #659d92;
+            -webkit-clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+        }
+
+        .hex3 {
+            position: absolute;
+            right: -39px;
+            top: 139px;
+            width: 106px;
+            height: 99px;
+            background: #6bd3a7;
+            -webkit-clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+        }
+
+        .name {
+            padding: 5px 10px;
+            font-weight: bold;
+            height: 100px;
+            line-height: 1.0;
+
+            span {
+                color: #041e4e;
+                font-size: 18px;
+            }
+
+            h2 {
+                margin-left: 55px;
+                color: #147f08;
+                font-size: 33px;
+            }
+        }
+
+        .content {
+            line-height: 0.2;
+            color: #080e85;
+            letter-spacing: 1px;
+            font-weight: 600;
+            margin-left: 10px;
+        }
+    }
+}
